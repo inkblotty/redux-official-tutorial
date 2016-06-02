@@ -6,7 +6,7 @@ import FilterLink from '../containers/FilterLink'
 	their filter property
 */
 
-const Footer () => (
+const Footer = () => (
 		<p>
 			Show: {" "}
 			<FilterLink filter="SHOW_ALL">
