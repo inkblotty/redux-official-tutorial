@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const getVisibileTodos = (todos, filter) => {
+const getVisibleTodos = (todos, filter) => {
 	switch (filter) {
 		case 'SHOW_ALL':
 			return todos
