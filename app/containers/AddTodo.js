@@ -4,8 +4,10 @@ import { addTodo } from '../actions'
 
 /* AddToDo can be rewritten as needed, hence 'let'
 	*/
+/* takes in actions and outputs a form element
+	that uses that action onSubmit */
 
-let AddToDo = ({ dispatch }) => {
+let AddTodo = ({ dispatch }) => {
 	let input
 
 	return (

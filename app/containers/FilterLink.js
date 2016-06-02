@@ -28,5 +28,3 @@ const FilterLink = connect(
 )(Link)
 
 export default FilterLink
-
-// yayyyy
