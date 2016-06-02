@@ -1,7 +1,9 @@
 import React, { PropTypes } from 'react'
 
+/* Link is a link with a callback */
+
 const Link = ({ active, children, onClick }) => {
-	if (active_ {
+	if (active) {
 		return <span>{children}</span>
 	})
 
